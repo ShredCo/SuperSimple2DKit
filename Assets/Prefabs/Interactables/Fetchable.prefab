@@ -224,10 +224,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4898934289596872}
   - component: {fileID: 212335288536973600}
-  - component: {fileID: 114046470670881314}
   - component: {fileID: 82006574943078984}
   - component: {fileID: 7192056131207972654}
   - component: {fileID: 3057818840298777500}
+  - component: {fileID: 114046470670881314}
   m_Layer: 0
   m_Name: CollectableGraphic
   m_TagString: Untagged
@@ -267,6 +267,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -302,27 +303,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &114046470670881314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1673055232659156}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08d405962f67e496a84ebd5037ff219c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemType: 0
-  audioSource: {fileID: 0}
-  bounceSound: {fileID: 0}
-  collectSounds:
-  - {fileID: 8300000, guid: e7cd838b3dd7d4df9923f64fa3a709c4, type: 3}
-  itemAmount: 1
-  itemName: Key1
-  UIImage: {fileID: -6538846834229301411, guid: 6601089fcdc67504eb56b99aa1179c23,
-    type: 3}
 --- !u!82 &82006574943078984
 AudioSource:
   m_ObjectHideFlags: 0
@@ -465,6 +445,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.77, y: 1.21}
   m_EdgeRadius: 0
+--- !u!114 &114046470670881314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673055232659156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d405962f67e496a84ebd5037ff219c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: 0
+  audioSource: {fileID: 0}
+  bounceSound: {fileID: 0}
+  collectSounds:
+  - {fileID: 8300000, guid: e7cd838b3dd7d4df9923f64fa3a709c4, type: 3}
+  itemAmount: 1
+  itemName: Key1
+  UIImage: {fileID: -6538846834229301411, guid: 6601089fcdc67504eb56b99aa1179c23,
+    type: 3}
 --- !u!1 &7104627198801084804
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,6 +513,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -607,6 +609,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -701,6 +704,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
